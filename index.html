@@ -5,9 +5,11 @@
 </head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
 <body>
 
 	<nav class="navbar navbar-expand-sm nav1  nav_white d-none d-lg-block" >
@@ -97,7 +99,7 @@
     	<p>Get personalised home interiors<br>
 	<span class="font-weight-bold">in just 45 days.</span></p>
 	</div>
-  <button class="btn">BOOK FREE ONLINE CONSULTATION</button>
+  <button class="btn" data-toggle="modal" data-target="#exampleModalCenter">BOOK FREE ONLINE CONSULTATION</button>
 </div>
 
 <div class="container">
@@ -151,19 +153,19 @@
 			<h4 class="font-weight-bold  mt-4">Online design consultation</h4>
 		</div>
 		<div class="col-md-3  pt-4">
-			<img src="assets/images/r1.svg" height="350" width="250">
+			<img src="assets/images/r1.svg" height="250" width="150">
 			<h6><b>Contactless experience</b><br>Design your home interiors, contactless<br> and safe.</h6>
 		</div>
 		<div class="col-md-3 pt-4">
-			<img src="assets/images/r2.svg" height="350" width="250">
+			<img src="assets/images/r2.svg" height="250" width="150">
 			<h6><b>Online expertise</b><br>Explore ideas & designs online with our<br>experts.</h6>
 		</div>
 		<div class="col-md-3 pt-4">
-			<img src="assets/images/r3.svg" height="350" width="250">
+			<img src="assets/images/r3.svg" height="250" width="150">
 			<h6><b>Live 3D designs</b><br>Visualise home interiors for your floor<br> plan.</h6>
 		</div>
 		<div class="col-md-3 pt-4">
-			<img src="assets/images/r4.svg" height="350" width="250">
+			<img src="assets/images/r4.svg" height="250" width="150">
 			<h6><b>Instant pricing</b><br>Enjoy full transparency and stay within<br> budget.</h6>
 		</div>
 		
@@ -173,10 +175,281 @@
 	<br>
 
 
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        hey there
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Modal -->
+<div class="modal fade" id="prodmodal" tabindex="-1" role="dialog" aria-labelledby="prodmodal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	 <div class="">
+  
+    <div class="row">
+      <div class="col-md-12 heroSlider-fixed">
+        <div class="overlay ">
+        	<span class="ml-4 order-md-0">Trending <i class="fa fa-line-chart text-success " aria-hidden="true"></i></span>
+        	<span class="ml-4 order-md-1 pull-right mr-4 txtorng">See all <i class="fa fa-angle-right  " aria-hidden="true"></i></span>
+      </div>
+         <!-- Slider -->
+        <div class="slider responsive">
+          			<div>
+						<img src="assets/images/carousel/1.jpg" data-toggle="modal" data-target="#prodmodal" style="borde" title="1" alt="" />
+						 <div>Image 1 Text</div>
+					</div>
+					<div>
+						<img  src="assets/images/carousel/2.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/3.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/4.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/5.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/6.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/1.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/2.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/3.jpg" alt="" />
+					</div>
+					<div>
+						<img src="http://placehold.it/200x150" alt="" />
+					</div>
+					<div>
+						<img src="http://placehold.it/200x150" alt="" />
+					</div>
+        </div>
+				 <!-- control arrows -->
+				<div class="prev">
+					<i class="fa fa-arrow-left ml-1">  </i>
+				</div>
+				<div class="next">
+					<i class="fa fa-arrow-right ml-2">  </i>
+				</div>
+				
+      </div>
+    </div>
+
+        <div class="row">
+      <div class="col-md-12 heroSlider-fixed">
+        <div class="overlay ">
+        	<span class="ml-4 order-md-0">Best Selling Kitchens</span>
+        	<span class="ml-4 order-md-1 pull-right mr-4 txtorng">See all <i class="fa fa-angle-right  " aria-hidden="true"></i></span>
+      </div>
+         <!-- Slider -->
+        <div class="slider responsive">
+          			<div>
+						<img src="assets/images/carousel/1.jpg"  alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/2.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/3.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/4.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/5.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/6.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/1.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/2.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/3.jpg" alt="" />
+					</div>
+					<div>
+						<img src="http://placehold.it/200x150" alt="" />
+					</div>
+					<div>
+						<img src="http://placehold.it/200x150" alt="" />
+					</div>
+        </div>
+				 <!-- control arrows -->
+				<div class="prev">
+					<i class="fa fa-arrow-left ml-1">  </i>
+				</div>
+				<div class="next">
+					<i class="fa fa-arrow-right ml-2">  </i>
+				</div>
+				
+      </div>
+    </div>
 
 
+     <div class="row">
+      <div class="col-md-12 heroSlider-fixed">
+        <div class="overlay ">
+        	<span class="ml-4 order-md-0">Best Selling Wardrobes </span>
+        	<span class="ml-4 order-md-1 pull-right mr-4 txtorng">See all <i class="fa fa-angle-right  " aria-hidden="true"></i></span>
+      </div>
+         <!-- Slider -->
+        <div class="slider responsive">
+          			<div>
+						<img src="assets/images/carousel/1.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/2.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/3.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/4.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/5.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/6.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/1.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/2.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/3.jpg" alt="" />
+					</div>
+					<div>
+						<img src="http://placehold.it/200x150" alt="" />
+					</div>
+					<div>
+						<img src="http://placehold.it/200x150" alt="" />
+					</div>
+        </div>
+				 <!-- control arrows -->
+				<div class="prev">
+					<i class="fa fa-arrow-left ml-1">  </i>
+				</div>
+				<div class="next">
+					<i class="fa fa-arrow-right ml-2">  </i>
+				</div>
+				
+      </div>
+    </div>
+  </div>
+  <div class="">
+  	<img src="assets/images/001.jpg" style="height: 250px;" class="img-fluid w-100">
+  </div>
 
 
+    <div class="row">
+      <div class="col-md-12 heroSlider-fixed">
+        <div class="overlay ">
+        	
+      </div>
+         <!-- Slider -->
+        <div class="slider responsive1">
+          			<div>
+						<img src="assets/images/carousel/1.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/2.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/3.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/4.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/5.jpg" alt="" />
+					</div>
+					<div>
+						<img  src="assets/images/carousel/6.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/1.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/2.jpg" alt="" />
+					</div>
+					<div>
+						<img src="assets/images/carousel/3.jpg" alt="" />
+					</div>
+					<div>
+						<img src="http://placehold.it/200x150" alt="" />
+					</div>
+					<div>
+						<img src="http://placehold.it/200x150" alt="" />
+					</div>
+        </div>
+				 <!-- control arrows -->
+				<div class="prev1">
+					<i class="fa fa-arrow-left ml-1 mb-1">  </i>
+				</div>
+				<div class="next1">
+					<i class="fa fa-arrow-right ml-2">  </i>
+				</div>
+				
+      </div>
+    </div>
+<br>
+<br>
+<br>
 
+	<div class="row">
+		<div class="col-md-12 ">
+			  <button class="btn-down" data-toggle="modal" data-target="#exampleModalCenter">BOOK FREE ONLINE CONSULTATION</button>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js'></script>
+	<script type="text/javascript" src="assets/style.js"></script>
 </body>
 </html>

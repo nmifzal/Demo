@@ -97,3 +97,193 @@ html, body{
 .jmb2{
 	background-color: #F5F5F5;
 }
+
+
+.btn-down{
+
+	background: #F64028;
+	color: #ffffff;
+	border:0;
+	padding: 8px 20px;
+	border-radius: 5px;
+	bottom: 0;
+	position: fixed;
+	left: 41%;
+}
+
+
+
+
+.slider img {
+
+  width: 100%;
+  height: auto;
+  padding: 15px;
+
+
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.slick-dots {
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.slick-dots li {
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.slick-dots li.slick-active button {
+  background-color: black;
+}
+.slick-dots li button {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: #999;
+  border: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  
+}
+
+
+
+
+.slick-dots li :hover {
+  background-color: black;
+
+}
+
+.slick-slide img{
+	border-radius: 8%;
+}
+
+.coverimg{
+
+	height: 400px;
+
+	background-image: url('./images/001.jpg');
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+
+
+/* Child Text Container */
+.slick-slide div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ 
+}
+
+/* Hover on Parent Container */
+.slick-slide:hover{
+ cursor: pointer;
+}
+
+.slick-slide:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ z-index: 10;
+ visibility: visible;
+ opacity: 0.7; 
+}
+
+
+
+/* Custom Arrow */
+.prev1 {
+  color: red;
+  position: absolute;
+  top: 94%;
+  left: 30em;
+  background: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 80px;
+  border: 1px solid#707070;
+  font-size: 1.5em;
+
+}
+.prev1 :hover {
+  cursor: pointer;
+  color: black;
+}
+
+.next1 {
+  color: red;
+  position: absolute;
+  top: 94%;
+  right: 30em;
+  background: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 80px;
+   border: 1px solid#707070;
+  font-size: 1.5em;
+  box-shadow: 0 0 10;
+}
+.next1 :hover {
+  cursor: pointer;
+  color: black;
+}
+
+/* Custom Arrow */
+.prev {
+  color: #000000;
+  position: absolute;
+  top: 38%;
+  left: 2em;
+  background: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 80px;
+  font-size: 1.5em;
+
+}
+.prev :hover {
+  cursor: pointer;
+  color: black;
+}
+
+.next {
+  color: #000000;
+  position: absolute;
+  top: 38%;
+  right: 2em;
+   background: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 80px;
+  font-size: 1.5em;
+  box-shadow: 0 0 10;
+}
+.next :hover {
+  cursor: pointer;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .next {
+    display: none !important;
+  }
+}
+
+.txtorng{
+	color: #F64028;
+
+}
+
+
+
