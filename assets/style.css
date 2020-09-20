@@ -1,0 +1,99 @@
+html, body{
+	overflow-x: hidden;
+}
+.nav_white{
+	background-color: #ffffff;
+}
+
+
+.nav1{
+	border-bottom: 0.5px solid #f2f2f2;
+	height: 3rem;
+}
+
+.nav1_txt{
+	font-size: 0.8rem;
+	padding-top: 0.5rem;
+	padding-right: 2rem;
+	padding-left: 3rem;
+}
+
+.rht{
+	margin-left: 60%;
+	margin-top: 0px;
+}
+
+.nav2_text{
+	font-size: 0.85rem;
+}
+
+.nav2 a{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.btn-top{
+	margin-right: 2rem;
+	background-color: #F64028;
+	padding: 0.6rem;
+	border-radius: 7px;
+	font-size: 0.8rem;
+	border:0;
+	color: #ffffff;
+}
+
+.jmb{
+	background-color: #FBD6CF;
+	height: 2.5rem;
+}
+
+.jmb-txt{
+	font-size: 0.8rem;
+	margin-top: 0.7rem;
+	font-weight: bold;
+}
+
+.containerz {
+  position: relative;
+  width: 100%;
+ 
+}
+
+.containerz img {
+  width: 100%;
+  height: 40rem;
+
+
+}
+
+.containerz .btn {
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #F64028;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.containerz .btn:hover {
+  background-color: black;
+}
+
+.top-left {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 2rem;
+}
+
+.jmb2{
+	background-color: #F5F5F5;
+}
